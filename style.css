@@ -10,10 +10,34 @@ body {
 	padding: 4rem;
 }
 
+input {
+	font-size: 2rem;
+}
+
+button {
+	font-size: 2rem;
+	float: right;
+}
+
+.removeButton {
+	font-size: 1rem;
+	text-decoration: underline overline;
+	box-shadow: 0px 0px 0px transparent;
+
+    border: 0px solid transparent;
+
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
 ul {
 	padding: 0;
 }
 
 ul li {
 	padding: 1rem 0;
+	list-style-type: none;
 }
